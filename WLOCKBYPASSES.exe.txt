@@ -11,8 +11,8 @@ wait(3)
 
  local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
     local Notify = NotifyLibrary.Notify
-    Library.theme.accentcolor = Color3.fromRGB(45, 205, 50)
-    Library.theme.accentcolor2 = Color3.fromRGB(45, 205, 50)
+    Library.theme.accentcolor = Color3.new(0.184314, 0.000000, 1.000000)
+    Library.theme.accentcolor2 = Color3.new(0.184314, 0.000000, 1.000000)
 
 
     local Window = Library:CreateWindow("saintevo's Paid Gui", Vector2.new(492, 598), Enum.KeyCode.P)
@@ -614,4 +614,10 @@ local plr = game.Players.LocalPlayer
 
             sector9:AddButton("RayX", function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+            end)
+
+             local sector9 = MiscTab:CreateSector("DarkDex", "left")
+
+            sector9:AddButton("DarkDex", function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/evorunsallcomp/Lock-/main/DarkDex'))()
             end)
